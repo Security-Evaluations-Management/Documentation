@@ -1,0 +1,16 @@
+﻿name,description
+FAU_GEN.1.1,"The TSF shall be able to generate an audit record of the following auditable events: 
+a) Start-up and shutdown of the audit functions; 
+b) All auditable events for the [selection, choose one of: minimum, basic, detailed, not specified] level of audit; and 
+c) [assignment: other specifically defined auditable events]."
+FAU_GEN.1.2,"The TSF shall record within each audit record at least the following information: 
+a) Date and time of the event, type of event, subject identity (if applicable), and the outcome (success or failure) of the event; and
+b) For each audit event type, based on the auditable event definitions of the functional components included in the PP/ST, [assignment: other audit relevant information]."
+FAU_GEN.2.1,"For audit events resulting from actions of identified users, the TSF shall be able to associate each auditable event with the identity of the user that caused the event."
+FAU_SAA.1.1,The TSF shall be able to apply a set of rules in monitoring the audited events and based upon these rules indicate a potential violation of the enforcement of the SFRs.
+FAU_SAA.1.2,"The TSF shall enforce the following rules for monitoring audited events: 
+a) Accumulation or combination of [assignment: subset of defined auditable events] known to indicate a potential security violation;
+b) [assignment: any other rules]."
+FAU_SAA.2.1,"The TSF shall be able to maintain profiles of system usage, where an individual profile represents the historical patterns of usage performed by the member(s) of [assignment: the profile target group]."
+FAU_SAA.2.2,"The TSF shall be able to maintain a suspicion rating associated with each user whose activity is recorded in a profile, where the suspicion rating represents the degree to which the user's current activity is found inconsistent with the established patterns of usage represented in the profile."
+FAU_SAA.2.3,The TSF shall be able to indicate a possible violation of the enforcement of the SFRs when a user's suspicion rating exceeds the following threshold conditions [assignment: conditions under which anomalous activity is reported by the TSF].
